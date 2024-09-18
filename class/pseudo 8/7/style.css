@@ -1,0 +1,49 @@
+
+a:link{
+    color: red;
+    margin: 10px;
+
+}
+
+a:active{
+    color: rgb(2, 20, 2);
+}
+a:visited{
+    color: blue;
+}
+
+input:focus{
+    outline: 2px solid red;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+.box:hover{
+    background-color: blue;
+}
+ /*input:required{
+    background-color: red;
+ } */
+
+ input:optional{
+    background-color: red;
+}
+ 
+/*
+ input:read-only{
+    background-color: green;
+ }
+ input:read-write{
+    background-color: green;
+ }*/
+  /*
+ input:disabled{
+ background-color: green;
+}*/
+
+
+
+ 

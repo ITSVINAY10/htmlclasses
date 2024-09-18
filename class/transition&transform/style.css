@@ -1,0 +1,49 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: red;    
+    font-size: 48px;
+    color: white;
+   /*transition-duration: 10s;
+    transition-property: all;
+    transition-timing-function: linear;
+    transition-timing-function: ease;*/
+    transition: all 1s ease;
+    animation: vinay 2s ease infinite alternate;
+
+
+}
+.main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    
+}
+.box:hover{
+    background-color: green;
+    transform: rotate(180deg)
+}
+
+/*.box:hover{
+    background-color: green;
+    transform: skew(30deg)
+}*/
+
+/*.box:hover{
+    background-color: green;
+    transform: scale(1.5)
+}*/
+
+/*.box:hover{
+    background-color: green;
+    transform:translateX(400px)
+}*/ 
+
+@keyframes vinay{
+    50%{
+        background-color: aqua ;
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}

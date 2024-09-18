@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Big+Shoulders+Display:wght@100..900&family=Dancing+Script:wght@400..700&family=Foldit:wght@100..900&family=Ga+Maamli&family=Grey+Qo&family=Lexend+Deca:wght@100..900&display=swap');
+        *{
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+
+        }
+       
+        .main{
+            font-family: "Ga Maamli", sans-serif;
+            font-weight: 900px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+            
+        }
+        .heading{
+            color: white;
+        }
+        h1{
+            font-family: "Ga Maamli", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+            border: 2px 2px red;
+
+                   
+        }
+        
+        h1:hover{
+            color: red;
+           
+
+        }
+        h1 span{
+            color: greenyellow;
+            font-size: 75px;
+        }
+
+        .left{
+            letter-spacing: 4px;
+            color:white;
+            
+
+        }
+        p{
+           font-family: 'Times New Roman', Times, serif;
+           margin: 20px;
+        }
+        .right img{
+            height: 300px;
+            width: 300px;
+           box-shadow: 0px 0px 2px 2px rgb(178, 165, 165);
+           
+            
+        }
+       
+        .bb a{
+            text-decoration: none;
+            color:black;
+            background-color: red;
+           height: 40px;
+           width: 150px;
+           box-shadow: 0px 0px 1px 1px white;
+           border-radius: 9px;
+          
+          
+           
+        }
+        a:hover{
+            color: black;
+        }
+       
+      #contact-btn{
+        margin-left: 94%;
+        font-weight: 800;
+        width: 110px;
+        margin-top: 3%;
+      }
+      @media (min-width:571px) and (max-width:768px){
+        .main{
+            flex-direction: column;
+            animation: none;
+        }
+
+        
+      }
+      @media (max-width:570px){
+        .main{
+            flex-direction: column;
+            animation: none;
+        }
+      }
+
+    </style>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+</head>
+<body class=" bg-black p-4 ">
+    <h1 class="heading animate__animated animate__backInDown animate__delay-0.7s ">
+       <span> A</span>bout
+    </h1><br>
+    <div class="main d-flex justify-content-between align-items-center col-12 col-lg-12 col-md-12 col-sm-6   animate__animated animate__backInDown animate__delay-1.5s f">
+    
+        
+        <div class="left animate__animated animate__backInDown animate__delay-2s " >
+            <p>The natural environment or natural world encompasses all biotic and abiotic things occurring naturally, meaning in this case not artificial. The term is most often applied to Earth or some parts of Earth. This environment encompasses the interaction of all living species, climate, weather and natural resources that affect human survival and economic activity.[1] The concept of the natural environment can be distinguished as components:</p>
+        </div>
+       
+        <div class="right p-5 animate__animated animate__backInDown animate__delay-3s ">
+            <img src="./images/aboutn.jpeg" alt="nature images">
+        </div>
+        
+    </div>
+    <br>
+  <div class="bb"> <a href="index1.html" class="btn btn-danger  btn-outline-success ms-4 animate__animated animate__backInDown animate__delay-4s">Back to Home</a></div>
+  <section id="contact-btn">
+    <a href="./gallery.html" class="btn btn-danger border-white w-100 ">Next-></a>
+  </section>
+</body>
+</html>

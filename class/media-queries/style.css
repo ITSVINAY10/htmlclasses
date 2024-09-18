@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(98, 225, 98);
+    color: white;
+}
+.banner{
+    display: flex;
+    gap:50px;
+    padding: 100px;
+    
+}
+.banner div:nth-child(1){
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+.banner h1{
+    font-size: 48px;
+    font-style: italic;
+    
+}
+.banner h1::first-letter{
+    color:red;
+    font-size: 90px;
+}
+.banner p{
+    font-size: 24px;
+}
+.banner p::first-letter{
+    font-size: 48px;
+    color: rgb(7, 0, 0);
+}
+.banner p::first-line{
+    color: rgb(56, 51, 181);
+}
+.banner button{
+    height: 60px;
+    width: 200px;
+    background-color: rgb(23, 56, 221);
+    color: white;
+    border-radius:20px;
+    box-shadow: 2px 2px black;
+}
+.banner button:hover{
+    background-color: red;
+}
+@media (max-width:776px){
+    body{
+        background-color: red;
+    }
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .banner h1{
+        font-style: italic;
+        text-decoration: underline wavy;
+        text-decoration-color: black;
+    }
+    .banner h1::first-letter{
+        color:rgb(98, 225, 98);
+        font-size: 90px;
+       
+    }
+    .banner button:hover{
+        background-color:rgb(98, 225, 98);
+    }
+    .banner p::first-line{
+        color: rgb(110, 89, 168);
+    }
+    .banner p::first-letter{
+        font-size: 48px;
+        color: rgb(7, 0, 0);
+    }
+    
+}

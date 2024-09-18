@@ -1,0 +1,17 @@
+.box{
+    background-color: red;
+    border: 1px solid white;
+    font-size: 48px;
+    color: white;
+}
+.main{
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    height:800px;
+    width: 600px;
+    grid-template-rows: 200px 300px 200px;
+}
+.box1{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}

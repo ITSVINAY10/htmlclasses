@@ -1,0 +1,30 @@
+.boxx{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+/*.main p:first-child{
+    background-color: red;
+}
+.main p:last-child{
+    background-color: red;
+}*/
+/*.main p:nth-child(1){
+    background-color: red;
+}
+.main div:nth-child(2){
+    background-color: red;
+}*/
+
+/*.main p:nth-of-type(3)
+{
+    background-color: red;
+}*/
+
+/*.main p:nth-last-child(3)
+{
+    background-color: red;
+}*/
+ .main p:nth-last-of-type(3){
+    background-color: red;
+ }
